@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="coreModelsStoreContainer" CdmEntityContainer="Assignment_3Entities">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="core.Models.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="cnp" ColumnName="cnp" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="penaltyPoints" ColumnName="penaltyPoints" />
+          <ScalarProperty Name="ableToBorrow" ColumnName="ableToBorrow" />
+          <ScalarProperty Name="nrOfMovies" ColumnName="nrOfMovies" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Favorites">
+      <EntityTypeMapping TypeName="core.Models.Favorite">
+        <MappingFragment StoreEntitySet="Favorites">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cnpClient" ColumnName="cnpClient" />
+          <ScalarProperty Name="movieName" ColumnName="movieName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="core.Models.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="clientCNP" ColumnName="clientCNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movies">
+      <EntityTypeMapping TypeName="core.Models.Movie">
+        <MappingFragment StoreEntitySet="Movie">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="genre" ColumnName="genre" />
+          <ScalarProperty Name="actors" ColumnName="actors" />
+          <ScalarProperty Name="clientCNP" ColumnName="clientCNP" />
+          <ScalarProperty Name="returnDate" ColumnName="returnDate" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="nrOfRatings" ColumnName="nrOfRatings" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reports">
+      <EntityTypeMapping TypeName="core.Models.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="borrowedNow" ColumnName="borrowedNow" />
+          <ScalarProperty Name="movie" ColumnName="movie" />
+          <ScalarProperty Name="movieID" ColumnName="movieID" />
+          <ScalarProperty Name="clientCnp" ColumnName="clientCnp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reviews">
+      <EntityTypeMapping TypeName="core.Models.Review">
+        <MappingFragment StoreEntitySet="Reviews">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="movieID" ColumnName="movieID" />
+          <ScalarProperty Name="review1" ColumnName="review" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

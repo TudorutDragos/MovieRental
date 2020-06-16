@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="client.Controller.LoginHandler" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABEAAEQAAgACAAAAAAAQAAEAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\LoginHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.ReportHandler" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Controller\ReportHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.Validators.ClientValidator" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\Validators\ClientValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.Validators.MovieValidator" Collapsed="true">
+    <Position X="15" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\Validators\MovieValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.ClientActionsHandler.ClientHandler" Collapsed="true">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAAAABAAAAAAAAAAEAAFIAAAAABAAAKA=</HashCode>
+      <FileName>Controller\ClientActionsHandlers\ClientHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.AdminActionsHandlers.AdminClientHandler" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAABAAIAAAAAAAAIAAAQ=</HashCode>
+      <FileName>Controller\AdminActionsHandlers\AdminClientHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.AdminActionsHandlers.AdminMovieHandler" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAIAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\AdminActionsHandlers\AdminMovieHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.Controller.AdminActionsHandlers.PdfFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\AdminActionsHandlers\PdfFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="client.Controller.AdminActionsHandlers.TxTFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\AdminActionsHandlers\TxTFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="client.View.Login" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAECAAABAAAACAAAADAKAACAAAABAAAABAAAA=</HashCode>
+      <FileName>View\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.View.Client.HomePageClient" Collapsed="true">
+    <Position X="15" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAEBAAAACAAABCIMA4wDhoFAAEAAACAIY=</HashCode>
+      <FileName>View\Client\HomePageClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.View.Client.ProfilePage" Collapsed="true">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAADAAAIgABIEEAIAAAAAAQ=</HashCode>
+      <FileName>View\Client\ProfilePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.View.Client.SelectPage" Collapsed="true">
+    <Position X="18.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAECAAABAAAADAgAACACAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>View\Client\SelectPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.View.Admin.ClientPage" Collapsed="true">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAABiAAABIQAACAAAIDAIBAgAAgEAIEAAAAAQY=</HashCode>
+      <FileName>View\Admin\ClientPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.View.Admin.MoviePage" Collapsed="true">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAgABAQAICAAAACAIAICAAoFEAEAAAAAQY=</HashCode>
+      <FileName>View\Admin\MoviePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client.View.Admin.SelectPageAdmin" Collapsed="true">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAABAABATAAAACACAIAAAAEMAAEACAAAA=</HashCode>
+      <FileName>View\Admin\SelectPageAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="core.Models.Assignment_3Entities" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="core.Models.Client" Collapsed="true">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="core.Models.Favorite" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="core.Models.Login" Collapsed="true">
+    <Position X="11.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="core.Models.Movie" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="core.Models.Report" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="core.Models.Review" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
